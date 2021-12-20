@@ -11,7 +11,7 @@ def parseListToString(arr):
 
 
 if __name__ == '__main__':
-    bot = telegramBot(botToken="5064377842:AAEHCP4FdpaEiEG9tM9p4qNkrjcZNZSj87M", chatID='1124730952')#1124730952
+    bot = telegramBot(botToken="", chatID='')#
     while True:
         newmsg, msgtype = bot.waitNewMessage(specifity=True, waittime=30)
         if newmsg and msgtype == "text":
